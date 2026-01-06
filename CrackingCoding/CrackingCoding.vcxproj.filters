@@ -24,9 +24,15 @@
     <ClCompile Include="..\DataStructures\Chapter1-ArraysAndStrings.cpp">
       <Filter>DataStructures</Filter>
     </ClCompile>
+    <ClCompile Include="..\DataStructures\Chapter2-LinkedLists.cpp">
+      <Filter>DataStructures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\DataStructures\Chapter1-ArraysAndStrings.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DataStructures\Chapter2-LinkedLists.h">
       <Filter>DataStructures</Filter>
     </ClInclude>
   </ItemGroup>

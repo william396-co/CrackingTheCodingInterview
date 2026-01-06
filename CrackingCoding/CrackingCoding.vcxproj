@@ -132,10 +132,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\DataStructures\Chapter1-ArraysAndStrings.cpp" />
+    <ClCompile Include="..\DataStructures\Chapter2-LinkedLists.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\DataStructures\Chapter1-ArraysAndStrings.h" />
+    <ClInclude Include="..\DataStructures\Chapter2-LinkedLists.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
