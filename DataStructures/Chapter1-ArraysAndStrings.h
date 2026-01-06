@@ -10,7 +10,15 @@ namespace Arrays_Strings {
 		*     What is you cannot use additional data structures?
 		*/
 
-		bool isUniqueChars(std::string const& str);
+		namespace V1 {
+			bool isUniqueChars(std::string const& str);
+		}
+		namespace V2 {
+			bool isUniqueChars(std::string const& str);
+		}
+		namespace V3 {
+			bool isUniqueChars(std::string const& str);
+		}
 
 	}
 
