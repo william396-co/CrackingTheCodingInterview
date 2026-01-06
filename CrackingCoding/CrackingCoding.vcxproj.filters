@@ -13,10 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{f2f8fef2-cb6d-4b5f-bb0c-ecc24834f55f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\DataStructures\Chapter1-ArraysAndStrings.cpp">
+      <Filter>DataStructures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DataStructures\Chapter1-ArraysAndStrings.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
