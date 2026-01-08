@@ -6,6 +6,7 @@ namespace LinkedList {
 	struct Node {
 		int data;
 		Node* next;
+		explicit Node(int val) :data{ val }, next{ nullptr } {}
 	};
 
 	namespace Q1 {
@@ -16,7 +17,7 @@ namespace LinkedList {
 		*   how would you solve this problem if a temporary buffer is not allowed?		* 
 		*/
 		namespace V1 {
-			void DeleteDups(Node list);
+			Node* DeleteDups(Node* root);
 		}
 	}
 

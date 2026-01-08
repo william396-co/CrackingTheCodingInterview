@@ -5,7 +5,7 @@
 
 int main() {
 
-	//std::cout << __PRETTY_FUNCTION__ << "\n";
+	std::cout << __PRETTY_FUNCTION__ << "\n";
 		
 	{
 		using namespace Arrays_Strings;
